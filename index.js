@@ -2,7 +2,7 @@ const {Client, Intents} = require("discord.js");
 const Discord = require("discord.js")
 
 const axios = require("axios")
-//require("dotenv").config();
+require("dotenv").config();
 
 const client = new Client({intents:[Intents.FLAGS.GUILDS,Intents.FLAGS.GUILD_MESSAGES]});
 
