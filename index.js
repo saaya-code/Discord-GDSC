@@ -1,6 +1,6 @@
 const {Client, Intents} = require("discord.js");
 const Discord = require("discord.js")
-const token="OTQ3NTkxOTI2OTEwMTY5MDk5.YhvfwA.tT9iPps_sRWzoNdzPauUPwe0IUQ";
+
 const axios = require("axios")
 //require("dotenv").config();
 
@@ -57,4 +57,4 @@ client.on("messageCreate",async (msg)=>{
 
 
 
-client.login(token)
+client.login(process.env.TOKEN)
